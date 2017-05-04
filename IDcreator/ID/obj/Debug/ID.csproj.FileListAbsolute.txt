@@ -1,0 +1,6 @@
+C:\Users\Palli\Documents\Skoli2017V\GSF\Lokaverk\ID\ID\bin\Debug\ID.exe.config
+C:\Users\Palli\Documents\Skoli2017V\GSF\Lokaverk\ID\ID\bin\Debug\ID.exe
+C:\Users\Palli\Documents\Skoli2017V\GSF\Lokaverk\ID\ID\bin\Debug\ID.pdb
+C:\Users\Palli\Documents\Skoli2017V\GSF\Lokaverk\ID\ID\obj\Debug\ID.csprojResolveAssemblyReference.cache
+C:\Users\Palli\Documents\Skoli2017V\GSF\Lokaverk\ID\ID\obj\Debug\ID.exe
+C:\Users\Palli\Documents\Skoli2017V\GSF\Lokaverk\ID\ID\obj\Debug\ID.pdb
