@@ -1,1 +1,2 @@
 C:\Users\Palli\Documents\Skoli2017V\GSF\Lokaverk\CreaterOfData\CreaterOfData\bin\Debug\CreaterOfData.exe.config
+C:\Users\Palli\Documents\BonusRipOff\hakkavelin(setur allt inni db\CreaterOfData\bin\Debug\CreaterOfData.exe.config
