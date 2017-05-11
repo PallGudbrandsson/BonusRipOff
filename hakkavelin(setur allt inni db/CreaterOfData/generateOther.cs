@@ -9,9 +9,12 @@ namespace CreaterOfData
     class generateOther
     {
         Random rand = new Random();
+        dbconn conn = new dbconn();
+        List<string> taken = new List<string>();
 
-        public string ID(int length, List<string> taken)
+        public string ID(int length)
         { // ID open
+            taken = conn.select("SELECT * FROM taken;");
             string placeholder = null;
             char[] items = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
                      'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
@@ -29,10 +32,11 @@ namespace CreaterOfData
                 }
                 else
                 {
-                    taken.Add(placeholder);
+                    conn.skipun(string.Format("INSERT INTO taken VALUES({0});", placeholder));
                     return placeholder;
                 }
             } // while close
         } // ID close
+        
     }
 }
