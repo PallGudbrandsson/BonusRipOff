@@ -1,0 +1,10 @@
+c:\users\mani\documents\visual studio 2015\Projects\GSF_Promo\GSF_Promo\bin\Debug\GSF_Promo.exe.config
+c:\users\mani\documents\visual studio 2015\Projects\GSF_Promo\GSF_Promo\bin\Debug\GSF_Promo.exe
+c:\users\mani\documents\visual studio 2015\Projects\GSF_Promo\GSF_Promo\bin\Debug\GSF_Promo.pdb
+c:\users\mani\documents\visual studio 2015\Projects\GSF_Promo\GSF_Promo\obj\Debug\GSF_Promo.csprojResolveAssemblyReference.cache
+c:\users\mani\documents\visual studio 2015\Projects\GSF_Promo\GSF_Promo\obj\Debug\GSF_Promo.Form1.resources
+c:\users\mani\documents\visual studio 2015\Projects\GSF_Promo\GSF_Promo\obj\Debug\GSF_Promo.Properties.Resources.resources
+c:\users\mani\documents\visual studio 2015\Projects\GSF_Promo\GSF_Promo\obj\Debug\GSF_Promo.csproj.GenerateResource.Cache
+c:\users\mani\documents\visual studio 2015\Projects\GSF_Promo\GSF_Promo\obj\Debug\GSF_Promo.exe
+c:\users\mani\documents\visual studio 2015\Projects\GSF_Promo\GSF_Promo\obj\Debug\GSF_Promo.pdb
+C:\Users\Mani\documents\visual studio 2015\Projects\GSF_Promo\GSF_Promo\bin\Debug\MySql.Data.dll
