@@ -51,7 +51,6 @@ namespace CreaterOfData
                         break;
                     default:
                         return false;
-                        break;
                 }
                 throw;
             }
@@ -97,6 +96,8 @@ namespace CreaterOfData
                     {
                         line += lesari.GetValue(i).ToString() + ":";
                     }
+                    //remove the last :
+                    line = line.Remove(line.Length - 1);
                     log.Add(line);
                 }
                 close();

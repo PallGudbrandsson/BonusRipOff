@@ -32,7 +32,7 @@ namespace CreaterOfData
                 }
                 else
                 {
-                    conn.skipun(string.Format("INSERT INTO taken VALUES({0});", placeholder));
+                    conn.skipun(string.Format("INSERT INTO taken VALUES('{0}');", placeholder));
                     return placeholder;
                 }
             } // while close
