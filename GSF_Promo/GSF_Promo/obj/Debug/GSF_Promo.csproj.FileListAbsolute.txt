@@ -8,3 +8,13 @@ c:\users\mani\documents\visual studio 2015\Projects\GSF_Promo\GSF_Promo\obj\Debu
 c:\users\mani\documents\visual studio 2015\Projects\GSF_Promo\GSF_Promo\obj\Debug\GSF_Promo.exe
 c:\users\mani\documents\visual studio 2015\Projects\GSF_Promo\GSF_Promo\obj\Debug\GSF_Promo.pdb
 C:\Users\Mani\documents\visual studio 2015\Projects\GSF_Promo\GSF_Promo\bin\Debug\MySql.Data.dll
+C:\Users\Palli\Documents\BonusRipOff\GSF_Promo\GSF_Promo\bin\Debug\GSF_Promo.exe.config
+C:\Users\Palli\Documents\BonusRipOff\GSF_Promo\GSF_Promo\obj\Debug\GSF_Promo.exe
+C:\Users\Palli\Documents\BonusRipOff\GSF_Promo\GSF_Promo\obj\Debug\GSF_Promo.pdb
+C:\Users\Palli\Documents\BonusRipOff\GSF_Promo\GSF_Promo\bin\Debug\GSF_Promo.exe
+C:\Users\Palli\Documents\BonusRipOff\GSF_Promo\GSF_Promo\bin\Debug\GSF_Promo.pdb
+C:\Users\Palli\Documents\BonusRipOff\GSF_Promo\GSF_Promo\bin\Debug\MySql.Data.dll
+C:\Users\Palli\Documents\BonusRipOff\GSF_Promo\GSF_Promo\obj\Debug\GSF_Promo.csprojResolveAssemblyReference.cache
+C:\Users\Palli\Documents\BonusRipOff\GSF_Promo\GSF_Promo\obj\Debug\GSF_Promo.Form1.resources
+C:\Users\Palli\Documents\BonusRipOff\GSF_Promo\GSF_Promo\obj\Debug\GSF_Promo.Properties.Resources.resources
+C:\Users\Palli\Documents\BonusRipOff\GSF_Promo\GSF_Promo\obj\Debug\GSF_Promo.csproj.GenerateResource.Cache

@@ -202,6 +202,7 @@
             this.btn_eyda.TabIndex = 12;
             this.btn_eyda.Text = "Eyða línu";
             this.btn_eyda.UseVisualStyleBackColor = true;
+            this.btn_eyda.Click += new System.EventHandler(this.btn_eyda_Click);
             // 
             // btn_fyrriFaerslur
             // 
@@ -222,6 +223,7 @@
             this.btn_skila.TabIndex = 14;
             this.btn_skila.Text = "Skila";
             this.btn_skila.UseVisualStyleBackColor = true;
+            this.btn_skila.Click += new System.EventHandler(this.btn_skila_Click);
             // 
             // btn_innskraAdmin
             // 
@@ -262,22 +264,22 @@
             this.btn_afskra.TabIndex = 18;
             this.btn_afskra.Text = "Afskrá";
             this.btn_afskra.UseVisualStyleBackColor = true;
+            this.btn_afskra.Click += new System.EventHandler(this.btn_afskra_Click);
             // 
             // txt_strikamerki
             // 
             this.txt_strikamerki.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_strikamerki.Location = new System.Drawing.Point(12, 75);
             this.txt_strikamerki.Name = "txt_strikamerki";
-            this.txt_strikamerki.Size = new System.Drawing.Size(312, 49);
+            this.txt_strikamerki.Size = new System.Drawing.Size(312, 41);
             this.txt_strikamerki.TabIndex = 20;
             // 
             // lst_vorur
             // 
             this.lst_vorur.FormattingEnabled = true;
-            this.lst_vorur.ItemHeight = 16;
             this.lst_vorur.Location = new System.Drawing.Point(365, 75);
             this.lst_vorur.Name = "lst_vorur";
-            this.lst_vorur.Size = new System.Drawing.Size(688, 452);
+            this.lst_vorur.Size = new System.Drawing.Size(688, 446);
             this.lst_vorur.TabIndex = 24;
             // 
             // label1
@@ -286,7 +288,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label1.Location = new System.Drawing.Point(400, 548);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 25);
+            this.label1.Size = new System.Drawing.Size(43, 20);
             this.label1.TabIndex = 28;
             this.label1.Text = "Verð";
             // 
@@ -296,7 +298,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label2.Location = new System.Drawing.Point(400, 580);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(83, 25);
+            this.label2.Size = new System.Drawing.Size(69, 20);
             this.label2.TabIndex = 29;
             this.label2.Text = "Afsláttur";
             // 
@@ -306,7 +308,7 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(399, 613);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 29);
+            this.label3.Size = new System.Drawing.Size(80, 24);
             this.label3.TabIndex = 30;
             this.label3.Text = "Summa";
             // 
@@ -316,7 +318,7 @@
             this.label_afsl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label_afsl.Location = new System.Drawing.Point(519, 580);
             this.label_afsl.Name = "label_afsl";
-            this.label_afsl.Size = new System.Drawing.Size(54, 25);
+            this.label_afsl.Size = new System.Drawing.Size(43, 20);
             this.label_afsl.TabIndex = 31;
             this.label_afsl.Text = "Verð";
             // 
@@ -326,7 +328,7 @@
             this.label_summa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label_summa.Location = new System.Drawing.Point(519, 616);
             this.label_summa.Name = "label_summa";
-            this.label_summa.Size = new System.Drawing.Size(54, 25);
+            this.label_summa.Size = new System.Drawing.Size(43, 20);
             this.label_summa.TabIndex = 32;
             this.label_summa.Text = "Verð";
             // 
@@ -336,7 +338,7 @@
             this.label_verd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label_verd.Location = new System.Drawing.Point(519, 548);
             this.label_verd.Name = "label_verd";
-            this.label_verd.Size = new System.Drawing.Size(54, 25);
+            this.label_verd.Size = new System.Drawing.Size(43, 20);
             this.label_verd.TabIndex = 33;
             this.label_verd.Text = "Verð";
             // 
@@ -346,7 +348,7 @@
             this.label_user.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label_user.Location = new System.Drawing.Point(872, 561);
             this.label_user.Name = "label_user";
-            this.label_user.Size = new System.Drawing.Size(102, 25);
+            this.label_user.Size = new System.Drawing.Size(83, 20);
             this.label_user.TabIndex = 35;
             this.label_user.Text = "Username";
             // 
@@ -356,13 +358,13 @@
             this.label_kt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label_kt.Location = new System.Drawing.Point(872, 599);
             this.label_kt.Name = "label_kt";
-            this.label_kt.Size = new System.Drawing.Size(94, 25);
+            this.label_kt.Size = new System.Drawing.Size(75, 20);
             this.label_kt.TabIndex = 36;
             this.label_kt.Text = "Kennitala";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1898, 1024);
             this.Controls.Add(this.label_kt);
