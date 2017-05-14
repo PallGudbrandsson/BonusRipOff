@@ -49,14 +49,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConnectionClass.cs" />
+    <Compile Include="dbConn.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Gagnagrunnur.cs" />
+    <Compile Include="generateOther.cs" />
+    <Compile Include="generateReDB.cs" />
+    <Compile Include="generateSQL.cs" />
+    <Compile Include="main.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="ProgramFraPalla.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

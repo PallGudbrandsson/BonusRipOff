@@ -254,6 +254,7 @@
             this.btn_lokaSkyrslu.TabIndex = 17;
             this.btn_lokaSkyrslu.Text = "Enda Færslu";
             this.btn_lokaSkyrslu.UseVisualStyleBackColor = true;
+            this.btn_lokaSkyrslu.Click += new System.EventHandler(this.btn_lokaSkyrslu_Click);
             // 
             // btn_afskra
             // 

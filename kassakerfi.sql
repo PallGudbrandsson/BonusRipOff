@@ -62,8 +62,7 @@ CREATE TABLE kaup (
 afgID varchar(40),
 varaID int,
 magn int,
-afslattur float,
-CONSTRAINT kaupPK PRIMARY KEY(afgID)
+afslattur float
 );
 
 DROP TABLE IF EXISTS taken;
@@ -75,7 +74,6 @@ ALTER TABLE verslun ADD FOREIGN KEY (A_madur) REFERENCES staff(kt);
 ALTER TABLE verslun ADD FOREIGN KEY (B_madur) REFERENCES staff(kt);
 ALTER TABLE verslun ADD FOREIGN KEY (C_madur) REFERENCES staff(kt);
 ALTER TABLE kaup ADD FOREIGN KEY (varaID) REFERENCES vorur(ID);
-ALTER TABLE afgreidsla ADD FOREIGN KEY (ID) REFERENCES kaup(afgID);
 ALTER TABLE afgreidsla ADD FOREIGN KEY (verslun_ID) REFERENCES verslun(ID);
 ALTER TABLE afgreidsla ADD FOREIGN KEY (staff_kt) REFERENCES staff(kt);
 ALTER TABLE staff ADD FOREIGN KEY (verslun_ID) REFERENCES verslun(ID);
